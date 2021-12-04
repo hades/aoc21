@@ -19,3 +19,12 @@ cc_binary(
     name="dec03",
     srcs=["dec03.cc"],
 )
+
+cc_binary(
+    name="dec04",
+    srcs=["dec04.cc"],
+    deps=[
+        "@com_google_absl//absl/strings",
+        "@com_google_absl//absl/types:optional",
+    ]
+)
