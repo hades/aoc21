@@ -28,3 +28,12 @@ cc_binary(
         "@com_google_absl//absl/types:optional",
     ]
 )
+
+cc_binary(
+    name="dec05",
+    srcs=["dec05.cc"],
+    deps=[
+        "@com_google_absl//absl/strings",
+        "@org_boost_boost//:math",
+    ]
+)
