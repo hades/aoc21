@@ -46,3 +46,11 @@ cc_binary(
         "@org_boost_boost//:range",
     ]
 )
+
+cc_binary(
+    name="dec13",
+    srcs=["dec13.cc"],
+    deps=[
+        "@com_google_absl//absl/strings",
+    ]
+)
