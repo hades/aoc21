@@ -37,3 +37,12 @@ cc_binary(
         "@org_boost_boost//:math",
     ]
 )
+
+cc_binary(
+    name="dec12",
+    srcs=["dec12.cc"],
+    deps=[
+        "@com_google_absl//absl/strings",
+        "@org_boost_boost//:range",
+    ]
+)
