@@ -54,3 +54,11 @@ cc_binary(
         "@com_google_absl//absl/strings",
     ]
 )
+
+cc_binary(
+    name="dec14",
+    srcs=["dec14.cc"],
+    deps=[
+        "@com_google_absl//absl/strings",
+    ]
+)
