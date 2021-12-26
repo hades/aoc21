@@ -88,3 +88,14 @@ cc_binary(
         "@com_google_absl//absl/strings",
     ]
 )
+
+cc_binary(
+    name="dec18",
+    srcs=["dec18.cc"],
+    deps=[
+        "@com_google_absl//absl/cleanup",
+        "@com_google_absl//absl/strings",
+        "@com_google_absl//absl/types:optional",
+        "@com_google_absl//absl/types:variant",
+    ]
+)
